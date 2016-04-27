@@ -18,3 +18,5 @@
     <!-- product service this is a test -->
     <bean name="productService" class="com.cmcc.vrp.province.service.impl.ProductServiceImpl"/>
 </beans>
+
+    learn the stage`
