@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- boss -->
+    <bean name="bossService" class="com.cmcc.vrp.boss.hainan.HNBOSSServiceImpl"/>
+
+    <!-- sms -->
+    <bean name="sendMessageService" class="com.cmcc.vrp.sms.mandao.MDSendMessageServiceImpl"/>
+
+    <!-- account & accountRecord -->
+    <bean name="accountService" class="com.cmcc.vrp.province.service.impl.EmptyAccountServiceImpl"/>
+    <bean name="accountRecordService" class="com.cmcc.vrp.province.service.impl.EmptyAccountRecordServiceImpl"/>
+
+    <!-- enterprise service -->
+    <bean name="enterpriseService" class="com.cmcc.vrp.province.service.impl.EnterprisesServiceImpl"/>
+
+    <!-- product service -->
+    <bean name="productService" class="com.cmcc.vrp.province.service.impl.ProductServiceImpl"/>
+</beans>
