@@ -15,6 +15,6 @@
     <!-- enterprise service -->
     <bean name="enterpriseService" class="com.cmcc.vrp.province.service.impl.EnterprisesServiceImpl"/>
 
-    <!-- product service -->
+    <!-- product service this is a test -->
     <bean name="productService" class="com.cmcc.vrp.province.service.impl.ProductServiceImpl"/>
 </beans>
